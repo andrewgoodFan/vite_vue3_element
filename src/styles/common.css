@@ -1,0 +1,36 @@
+/*------reset------*/
+body,dl,dd,ul,ol,h1,h2,h3,h4,h5,h6,p,form{margin:0;}
+h1,h2,h3,h4,h5,h6{font-size:100%;}
+em,i,b{font-style:normal;}
+ul,ol{list-style:none;}
+a{text-decoration:none;color:#363636;}
+a:hover{text-decoration:none;}
+img{display:block;border:0;border-radius:2px 2px 2px 2px;}
+button,input,select,textarea{font-size:100%;outline:none;}
+textarea{resize:none;}
+table{border-collapse:collapse;border-spacing:0;}
+td,th,ul,ol{padding:0;}
+cite{font-style:normal;}
+
+/**-----common-------*/
+html, body {
+    height: 100%;
+}
+#app {
+    overflow: hidden;
+}
+/* router view transition */
+.zoom-fade-enter-active,
+.zoom-fade-leave-active {
+  transition: transform 0.35s, opacity 0.28s ease-in-out;
+}
+
+.zoom-fade-enter-from {
+  opacity: 0;
+  transform: scale(0.97);
+}
+
+.zoom-fade-leave-to {
+  opacity: 0;
+  transform: scale(1.03);
+}

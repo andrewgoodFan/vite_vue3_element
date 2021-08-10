@@ -1,0 +1,62 @@
+{
+    "result": [
+        {
+            "id": 56,
+            "url": "/system/role",
+            "component": "/system/role",
+            "sort": 1,
+            "icon": "",
+            "keepAlive": 1,
+            "parentId": 1,
+            "name": "测试11"
+        },
+        {
+            "id": 59,
+            "url": "system/meter",
+            "sort": 1,
+            "icon": "icon-yun",
+            "keepAlive": 1,
+            "parentId": 1,
+            "name": "测试33"
+        },
+        {
+            "id": 1,
+            "url": "system",
+            "sort": 2,
+            "icon": "icon-BUG",
+            "keepAlive": 0,
+            "parentId": -1,
+            "name": "测试77"
+        },
+        {
+            "id": 2,
+            "url": "system/account",
+            "sort": 3,
+            "icon": "icon-zhuzhuangtu",
+            "keepAlive": 1,
+            "parentId": 1,
+            "name": "测试99"
+        },
+        {
+            "id": 5,
+            "url": "system/dict",
+            "sort": 4,
+            "icon": "icon-BUG",
+            "keepAlive": 0,
+            "parentId": 1,
+            "name": "测试10"
+        },
+        {
+            "id": 4,
+            "url": "system/access",
+            "sort": 6,
+            "icon": "icon-yun",
+            "keepAlive": 1,
+            "parentId": 1,
+            "name": "测试002"
+        }
+    ],
+    "code": 0,
+    "message": "请求成功",
+    "bizCode": "SUCCESS"
+}
